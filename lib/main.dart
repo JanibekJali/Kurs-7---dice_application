@@ -1,5 +1,7 @@
+import 'package:dice_application/pages/dice_getX_page.dart';
 import 'package:dice_application/pages/dice_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() => runApp(const DiceApp());
 
@@ -8,9 +10,10 @@ class DiceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DicePage(),
+      home: DiceGetXPage(),
+      // home: DicePage(),
     );
   }
 }

@@ -10,10 +10,10 @@ class DiceWidget extends StatelessWidget {
     @required this.diceNumber,
     Key key,
   }) : super(key: key);
-  int count = 0;
+
   @override
   Widget build(BuildContext context) {
-    log('build ${count++}');
+    // log(count++);
     return Expanded(
       child: InkWell(
         onTap: onTap,

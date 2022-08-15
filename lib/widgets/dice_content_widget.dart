@@ -17,7 +17,7 @@ class DiceContentWidget extends StatelessWidget {
   int count = 0;
   @override
   Widget build(BuildContext context) {
-    log('build $count');
+    // log('build $count');
     return Center(
       child: Padding(
         padding: const EdgeInsets.symmetric(
